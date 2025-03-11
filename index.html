@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sstyle.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section id="home">
+        <h1>Welcome to My World</h1>
+        <img src="/download.gif" alt="" width="150px" />
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Heeeeeyyyyyyy! Best Web Dev in the Milkyway!!!!</p>
+
+        <form>
+          <div class="input-field">
+            <label for="name">Full Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Brian Achira"
+            />
+          </div>
+          <div class="input-field">
+            <label for="bio"><br />Short Bio:</label>
+            <textarea
+              id="bio"
+              name="bio"
+              rows="4"
+              required
+              placeholder="Raised in Meta's Labs. I ate code, slept code, and even dated code!!😂"
+            ></textarea>
+          </div>
+          <div class="input-field">
+            <label for="skills">Skills:</label>
+            <input
+              type="text"
+              id="skills"
+              name="skills"
+              required
+              placeholder="Anything you can think of."
+            />
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+      <section id="work">
+        <h2>My Work</h2>
+
+        <p>Project 1: Web Application</p>
+        <p>Project 2: E-commerce Website</p>
+        <p>Project 3: Portfolio Website</p>
+
+        <form>
+          <div class="input-field">
+            <label for="job-title">Job Title:</label>
+            <input type="text" id="job-title" name="job-title" required />
+          </div>
+          <div class="input-field">
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" name="company" required />
+          </div>
+          <div class="input-field">
+            <label for="years">Years of Experience:</label>
+            <input type="number" id="years" name="years" required />
+          </div>
+          <div class="input-field">
+            <label for="work-description">Job Description:</label>
+            <textarea
+              id="work-description"
+              name="work-description"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit">Submit Work Experience</button>
+          </div>
+        </form>
+      </section>
+      <section id="resume">
+        <h2>My Resume</h2>
+        <table border="2">
+          <tr>
+            <th>Experience</th>
+            <th>Company</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Web Designer</td>
+            <td>Zoho</td>
+            <td>2030-2038</td>
+          </tr>
+
+          <tr>
+            <td>Frontend Developer</td>
+            <td>Meta</td>
+            <td>2039-2049</td>
+          </tr>
+          <tr>
+            <td>Frotend Lead Developer</td>
+            <td>Netflix</td>
+            <td>2050-2060</td>
+          </tr>
+        </table>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <div class="input-field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="input-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </div>
+          <div class="input-field">
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <div>
+        <video
+          width="320"
+          height="240"
+          controls
+          src="/SZA - PSA (Official Teaser).mp4"
+          poster="/SZA - SOS Album Cover Laptop Wallpaper.jpg"
+        ></video>
+      </div>
+      <div>
+        <audio controls src="/DRAKE x PARTYNEXTDOOR - NOKIA.mp3"></audio>
+      </div>
+      <footer>
+        <div>
+          <p>Follow me on:</p>
+          <div class="links">
+            <a href="#" target="_blank">
+              <img src="/icons/insta.svg" alt="" width="30px" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="/icons/linkedin.svg" alt="" width="30px" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="/icons/github.svg" alt="" width="30px" />
+            </a>
+          </div>
+        </div>
+        <div>
+          <p>
+            Contact:
+            <a href="mailto:ajujubrio@gmail.com">ajujubrio@gmail.com</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
