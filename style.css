@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --aboutBg: url(/elements/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg);
   --projectsBg: url(/elements/projects-bg.jpg);
@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -50,21 +50,21 @@ aside a:hover {
 #nav-links li {
   padding: 1em 0;
 }
+main {
+  width: 80%;
+  margin-left: 20%;
+}
 section {
   min-height: 100vh;
   border-bottom: 2px solid white;
 }
 .overlay {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
+
   background-color: rgba(0, 0, 0, 0.7);
   padding: 2rem 0rem;
 }
-main {
-  width: 80%;
-  margin-left: 20%;
-}
+
 #social-links a img {
   width: 30px;
 }
@@ -74,6 +74,11 @@ main {
 }
 
 /*ABOUT SECTION*/
+.about-main {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+}
 #about {
   background-image: var(--aboutBg);
   background-attachment: fixed;
@@ -98,6 +103,31 @@ main {
   width: 30%;
   display: flex;
   justify-content: space-between;
+}
+
+/*NAVBAR*/
+nav {
+  background-color: rgb(19, 19, 19);
+  width: 90%;
+  margin: 0rem auto;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-radius: 50px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0 4rem;
+}
+nav ul a {
+  color: white;
+}
+nav ul a:hover {
+  color: wheat;
 }
 /*PROJECTS SECTION*/
 #projects {
