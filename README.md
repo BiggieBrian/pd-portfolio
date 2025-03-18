@@ -1,1 +1,1 @@
-https://biggiebrian.github.io/pd-portfolio/
+achirabrian.netlify.app
