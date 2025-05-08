@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
-  --aboutBg: url(/elements/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg);
-  --projectsBg: url(/elements/projects-bg.jpg);
+  --aboutBg: url(../elements/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg);
+  --projectsBg: url(../elements/projects-bg.jpg);
   /*--resumeBg: url(/elements/resume-bg.jpg);*/
-  --contactBg: url(/elements/contactUs.jpg);
+  --contactBg: url(../elements/contactUs.jpg);
 }
 * {
   margin: 0;
